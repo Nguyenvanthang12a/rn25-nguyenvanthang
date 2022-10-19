@@ -1,11 +1,11 @@
 import React from "react";
-import Btnumber from "./Baitaptrenlop/Btnumber";
+import Practive from "./Practive";
 
 function App() {
   return (
-    <div>
-      <Btnumber />
-    </div>
+    <>
+      <Practive />
+    </>
   );
 }
 
