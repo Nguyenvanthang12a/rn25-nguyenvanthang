@@ -14,15 +14,25 @@ export default function Practive({}: Props) {
   };
 
   return (
+    //<div>
+    //  <form onSubmit={handleSubmit}>
+    //  <input type="text" onChange={handleOnchange} value={text} />
+    //    <input type="password" />
+    //    <input type="checkbox" name="checkbox1" />
+    //    < input type="submit"  />
+    //  </form>
+    //</div>
     <div>
-      <form onSubmit={handleSubmit}>
-        <input type="text" onChange={handleOnchange} value={text} />
-        <input type="password" />
-        <input type="checkbox" name="checkbox1" />
-        <input type="submit" />
-        Login
-        <input />
-      </form>
+      {/* <form onSubmit={handleSubmit}>
+        <input
+          type="Text"
+          name="userName"
+          placeholder="User Name"
+          value={inputs.Username}
+          onChange={handleChange}
+        />
+      </form> */}
+      hello
     </div>
   );
 }

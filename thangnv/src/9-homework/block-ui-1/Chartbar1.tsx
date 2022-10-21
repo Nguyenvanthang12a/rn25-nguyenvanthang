@@ -1,6 +1,6 @@
 import React from "react";
+import "../block-ui-1../Blockui.css";
 
-import "../Chartbar/Basic1.css";
 interface DataRatingProps {
   data: {
     name: string;
@@ -9,7 +9,7 @@ interface DataRatingProps {
   };
 }
 
-function Chartbar({ data }: DataRatingProps) {
+function ChartBar1({ data }: DataRatingProps) {
   return (
     <div>
       <div className="rating">
@@ -34,4 +34,4 @@ function Chartbar({ data }: DataRatingProps) {
   );
 }
 
-export default Chartbar;
+export default ChartBar1;
