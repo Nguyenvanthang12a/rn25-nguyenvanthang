@@ -1,0 +1,22 @@
+.container {
+    width: 800px;
+    margin: 20px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(247, 241, 241);
+  }
+  .text {
+    width: 20%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+  .plan {
+    width: 80%;
+  }
+  .plan_style {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  
