@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./BlockUi2.css";
+import "./BlockUi2.css";
 type Props = {};
 interface BlockUI2 {
   text?: string;
@@ -10,13 +10,13 @@ interface BlockUI2 {
 // Không truyền {} trong function là vì nó đã là 1 object
 function Index(props: BlockUI2) {
   return (
-    <div className={styles.container}>
-      <div className={styles.text} style={{ backgroundColor: props.color }}>
+    <div className="container">
+      <div className="text" style={{ backgroundColor: props.color }}>
         {props.text}
       </div>
-      <div className={styles.plan} style={{}}>
+      <div className="plan" style={{}}>
         <div
-          className={styles.plan_style}
+          className="plan_style"
           style={{
             backgroundColor: `${props.color1}`,
             width: `${props.plan}%`,
