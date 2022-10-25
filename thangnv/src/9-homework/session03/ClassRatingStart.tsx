@@ -19,15 +19,9 @@ class ClassRatingStart extends Component<Props, Star> {
       <div style={{ textAlign: "center" }}>
         {this.arrStar?.map((index) => {
           return index <= this.state.star ? (
-            <ReactIcons.AiOutlineLike
-              key={index}
-              onClick={() => this.setState({ star: index })}
-            />
+            <ReactIcons.AiOutlineLike key={index} />
           ) : (
-            <ReactIcons.AiTwotoneLike
-              key={index}
-              onClick={() => this.setState({ star: index })}
-            />
+            <ReactIcons.AiTwotoneLike key={index} />
           );
         })}
         <span style={{ marginLeft: "14px" }}>{this.state.star}</span>

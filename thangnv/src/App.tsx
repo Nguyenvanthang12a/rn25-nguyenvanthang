@@ -1,4 +1,11 @@
 import React from "react";
+import ClassLikeButton from "./9-homework/session03/ClassLikeButton";
+import ClassRatingStart from "./9-homework/session03/ClassRatingStart";
+import Detail from "./9-homework/session08/Detail";
+import From from "./9-homework/session08/Form";
+import FormUpdate from "./9-homework/session08/FormUpdate";
+import ListPage from "./9-homework/session08/ListPage";
+import Router from "./9-homework/session08/Router";
 // import Content2_Img from "./9-homework/session01/Basic1/Content2_Img";
 // import Content_2 from "./9-homework/session01/Basic1/Content_2";
 // import Content3_Img from "./9-homework/session01/Basic2/Content3_Img";
@@ -40,7 +47,13 @@ function App() {
         />
       }
       <BlockUi02 /> */}
-      <Index />
+      {}
+      {/* <ClassRatingStart/> */}
+      <Detail />
+      <FormUpdate />
+      <From />
+      <ListPage />
+      <Router />
     </>
   );
 }
